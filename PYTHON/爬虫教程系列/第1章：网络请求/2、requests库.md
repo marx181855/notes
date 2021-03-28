@@ -23,7 +23,8 @@ resonse = requests.get("http://www.baidu.com/")
 import requests
 kw = {'wd':'中国'}
 headers = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0"}
-#params 接受一个字典或者字符串的查询参数，字典类型自动转换为url编码，不需要urlencode()response = requests.get("http://www.baidu.com/s", params = kw, headers = headers)
+#params 接受一个字典或者字符串的查询参数，字典类型自动转换为url编码，不需要urlencode()
+response = requests.get("http://www.baidu.com/s", params = kw, headers = headers)
 #查看响应内容, response.text 返回的是Unicode格式的数据
 print(respsonse.text)
 #查看响应内容, response.content 返回的是字节流的数据   
@@ -57,9 +58,12 @@ response = requests.post(url,data=data,headers=headers)
 ## 使用代理：
  使用requests 添加代理也非常简单，只要在请求的方法中（比如 get 或者 post） 传递 proxies 参数就可以了。示例代码如下：
 ```python
-import requests#没有使用代理# response = requests.get("http://httpbin.org/ip")# print(response.text)
+import requests
+#没有使用代理
+# response = requests.get("http://httpbin.org/ip")# print(response.text)
 
-#使用代理的proxy = {  'http':"117.80.234.163:808"}response = requests.get("http://httpbin.org/ip",proxies=proxy)print(response.text)
+#使用代理的proxy = {  'http':"117.80.234.163:808"}response = requests.get("http://httpbin.org/ip",proxies=proxy)
+print(response.text)
 ```
 
 ## cookie：
@@ -77,9 +81,15 @@ print(response.cookies.get_dict())
 
 ```python
 import requests
-login_url = 'http://www.renren.com/PLogin.do'data = {    'email':"13539439659",    'password':"2019HUANG520.."  }
+login_url = 'http://www.renren.com/PLogin.do'
+data = {    'email':"13539439659",    'password':"2019HUANG520.."  }
 headers = {    'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0'  }
-#创建一个session对象session = requests.Session()#用session对象发送请求session.post(login_url,data=data,headers=headers)response = session.get('http://www.renren.com/872201594/profile')#将返回内容写入到文件中
+#创建一个session对象
+session = requests.Session()
+#用session对象发送请求
+session.post(login_url,data=data,headers=headers)
+response = session.get('http://www.renren.com/872201594/profile')
+#将返回内容写入到文件中
 with open('renren.html','w',encoding='utf-8') as fp:  fp.write(response.text)
 ```
 ## 处理不信任的SSL证书：
@@ -88,7 +98,8 @@ with open('renren.html','w',encoding='utf-8') as fp:  fp.write(response.text)
 ```python
 import requests
 
-#添加verify属性就可以忽略检测SSL证书response = requests.get("http://www.12306.cn/",verify =False)print(response.content.decode('utf-8'))
+#添加verify属性就可以忽略检测SSL证书
+response = requests.get("http://www.12306.cn/",verify =False)print(response.content.decode('utf-8'))
 ```
 
 ## 【实战】爬虫拉勾网职位信息
