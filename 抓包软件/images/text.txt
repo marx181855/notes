@@ -1,0 +1,2 @@
+root: E:\500IT\550blogBackup\插件\浏览器\images
+

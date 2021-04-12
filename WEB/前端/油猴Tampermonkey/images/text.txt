@@ -1,0 +1,2 @@
+root: E:\500IT\550blogBackup\WEB\服务器\images
+

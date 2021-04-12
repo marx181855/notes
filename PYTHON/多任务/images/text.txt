@@ -1,0 +1,2 @@
+root: E:\500IT\550blogBackup\PYTHON\小功能\images
+

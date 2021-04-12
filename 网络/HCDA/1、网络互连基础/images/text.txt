@@ -1,0 +1,2 @@
+root: E:\500IT\550blogBackup\网络\例子\images
+

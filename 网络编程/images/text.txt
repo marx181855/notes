@@ -1,0 +1,2 @@
+root: E:\500IT\550blogBackup\软件工程\images
+

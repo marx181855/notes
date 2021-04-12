@@ -1,7 +1,3 @@
-[TOC]
-
-
-
 # excel文件处理
 
 python操作excel主要用到xlrd、wlwt和xlutils这两个库，即xlrd是读excel， xlwt是写excel的库，xlutils是对读写excel操作的正则。
@@ -36,7 +32,7 @@ data = xlrd.open_workbook(filename)#文件名以及路径，如果路径或者�
 
      Excel文档名称为test.xls，内容如下：
 
-![2-1](./images/2-1.PNG)
+![](./images/2-1.PNG)
 
 
 
@@ -212,7 +208,7 @@ workbook.save('Excel_test.xls')
 ```
 以下是保存的excel表格
 
-![2-2](./images/2-2.png)
+![](./images/2-2.png)
 
 
 
@@ -240,7 +236,7 @@ worksheet.write(1, 0, 'Formatted value', style) # 带样式的写入
 
 workbook.save('formatting.xls') # 保存文件
 ```
-![2-3](./images/2-3.png)
+![](./images/2-3.png)
 
 
 
@@ -263,7 +259,7 @@ worksheet.col(0).width = 33333
 workbook.save('cell_width.xls')
 ```
 
-![2-4](./images/2-4.png)
+![](./images/2-4.png)
 
 
 ### （3）输入一个日期到单元格：
@@ -283,7 +279,7 @@ worksheet.write(0, 0, datetime.datetime.now(), style)
 workbook.save('Excel_Workbook.xls')
 
 ```
-![2-5](./images/2-5.png)
+![](./images/2-5.png)
 ### （4）向单元格添加一个公式：
 
 ```python
@@ -300,7 +296,7 @@ worksheet.write(1, 1, xlwt.Formula('SUM(A1,B1)')) # Should output "7" (A1[5] + A
 workbook.save('Excel_Workbook.xls')
 
 ```
-![2-6](./images/2-6.png)
+![](./images/2-6.png)
 
 
 ### （5）向单元格添加一个超链接：
@@ -317,7 +313,7 @@ workbook.save('href.xls')
 
 
 ```
-![2-7](./images/2-7.png)
+![](./images/2-7.png)
 
 ### （6）合并列和行：
 
@@ -344,7 +340,7 @@ worksheet.write_merge(1, 2, 0, 3, 'Second Merge', style) # Merges row 1 through 
 workbook.save('Excel_Workbook.xls')
 
 ```
-![2-8](./images/2-8.png)
+![](./images/2-8.png)
 
 
 
@@ -367,7 +363,7 @@ worksheet.write(0, 0, 'Cell Contents', style)
 workbook.save('align.xls')
 
 ```
-![2-9](./images/2-9.png)
+![](./images/2-9.png)
 
 
 ### （8）为单元格添加边框：
@@ -402,7 +398,7 @@ workbook.save('border.xls')
 ```
 
 
-![2-10](./images/2-10.png)
+![](./images/2-10.png)
 
 ### （9）为单元格设置背景色：
 
@@ -425,11 +421,11 @@ workbook.save('background.xls')
 ```
 
 
-![2-11](./images/2-11.png)
+![](./images/2-11.png)
 
 ### 案例一
 
-![2-12](./images/2-12.png)
+![](./images/2-12.png)
 
 ```python
 import xlwt
@@ -481,7 +477,7 @@ wb.save('dubug.xls')   #保存xls
 
 ### 案例二
 
-![2-13](./images/2-13.png)
+![](./images/2-13.png)
 
 
 ```python
@@ -625,12 +621,12 @@ xlwt只能创建一个全新的excel文件,然后对这个文件进行写入内�
 
 ### xlutils模块
 
-![2-14](./images/2-14.png)
+![](./images/2-14.png)
 
 目前希望打开某个excel文件，然后写入内容
 最终效果：最初无论设置什么格式或者行高，在程序输入内容之后，都会保存为默认的字体大小和行高
 
-![2-15](./images/2-15.png)
+![](./images/2-15.png)
 
 
 使用xlwt设置excel里面的字体的style
@@ -672,16 +668,4 @@ if __name__ == '__main__':
 ```
 
 
-![2-16](./images/2-16.png)
-
-
-
-
-
-
-
-
-
-
-
-
+![](./images/2-16.png)

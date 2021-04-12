@@ -1,7 +1,3 @@
-[TOC]
-
-
-
 # 动态网页抓取
 
 # 什么是AJAX：
@@ -526,23 +522,3 @@ if __name__ == "__main__":
     spider = LagouSpider()
     spider.run()
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

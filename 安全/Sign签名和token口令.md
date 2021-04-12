@@ -244,6 +244,3 @@ Having our API just serve data, we can also make the design choice to serve asse
 
 
 
-
-
-

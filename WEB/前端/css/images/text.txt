@@ -1,0 +1,2 @@
+root: E:\500IT\550blogBackup\WEB\前端\Javascript\images
+

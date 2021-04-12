@@ -1,0 +1,2 @@
+root: E:\500IT\550blogBackup\PYTHON\爬虫教程系列\第3章：数据储存\images
+
