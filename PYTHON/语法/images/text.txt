@@ -1,2 +1,0 @@
-root: E:\500IT\550blogBackup\VScode\images
-

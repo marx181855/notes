@@ -53,7 +53,7 @@ __*__ 表示通配符。
 |\||计算两个节点集|//book \| //cd|返回所有拥有 book 和 cd 元素的节点集|
 |:----:|:----:|:----:|:----:|
 |+|加法|6 + 4|10|
-|-|减法|//book | //cd|2|
+|-|减法|6-4 | 2 |
 |\*|乘法|6\*4|24|
 |div|除法|8 div 4|2|
 | = |等于|price=9.80|如果 price 等于9.80，返回true，否则返回false|
@@ -168,7 +168,10 @@ print(result.decode('utf-8'))
 #### 2、解析html文件：使用 lxml.etree.parse 进行解析，示例代码如下：
 
 ```python
-from lxml import etreehtml = etree.parse('hello.html')print(etree.tostring(html,encoding="utf-8").decode('utf-8'))
+from lxml import etree
+
+html = etree.parse('hello.html')
+print(etree.tostring(html,encoding="utf-8").decode('utf-8'))
 
 ```
 这个函数默认使用的事 XML 解析器，所有如果碰到一些不规范的 HTML代码的时候就会解析错误，这时候就要自己创建 HTML 解析器。
@@ -176,7 +179,7 @@ from lxml import etreehtml = etree.parse('hello.html')print(etree.tostring(html,
 ```python
 from lxml import etree
 
-#创建 XML 解析器
+#创建 HXML 解析器
 parser = etree.HTMLParser(encoding="utf-8")
 #使用 XML 解析器
 htmlElement=etree.parse("hello.html",parser=parser)

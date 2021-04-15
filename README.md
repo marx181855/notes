@@ -1,3 +1,5 @@
+# 蚂蚁搬家，乐此不疲
+
 印象笔记 导出情况
 
 
@@ -29,8 +31,13 @@
 
 将所有所学的内容全部做笔记
 
-目前做一个用python将html转markdown的程序
+目前做一个用python将html转markdown的程序——完成了
 
+将所有所学的内容全部做笔记，例如：
 
-将所有所学的内容全部做笔记
+- python
+- java
+- git
+- Javascript+CSS+HTML
+- 英语
 
