@@ -1,23 +1,31 @@
 # 返回固定页面的http服务器
 
-```pyton
+```python
 import socket
 
-def server_client(new_socket):  # 为这个客户端返回数据  # 1，接收浏览器发送过来的请求，即http请求  # GET /HTTP/1.1  # ...  request = new_socket.recv(1024)  print(request)
+def server_client(new_socket):  
+# 为这个客户端返回数据  
+# 1，接收浏览器发送过来的请求，即http请求  # GET /HTTP/1.1  # ...  
+request = new_socket.recv(1024)  print(request)
 
-  # 2，返回http格式的数据，给浏览器  # 2.1 ，准备返回给浏览器的数据 ---header  response = "HTTP/1.1 200 OK\r\n"  response += "\r\n"  # 2.2，准备发送给浏览器的数据 ----body  response += "hahahha"  new_socket.send(response.encode('utf-8'))
+# 2，返回http格式的数据，给浏览器  # 2.1 ，准备返回给浏览器的数据 ---header  response = "HTTP/1.1 200 OK\r\n"  response += "\r\n"  # 2.2，准备发送给浏览器的数据 ----body  response += "hahahha"  new_socket.send(response.encode('utf-8'))
 
-  # 关闭套接字
+# 关闭套接字
 
-def main():  # 用来完成整体的控制  # 1,创建套接字  tcp_server_cocket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+def main():  # 用来完成整体的控制  
+# 1,创建套接字  
+tcp_server_cocket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 
-  # 2，绑定  tcp_server_cocket.bind(("",7890))
+# 2，绑定  
+tcp_server_cocket.bind(("",7890))
 
-  # 3,变为监听套接字  tcp_server_cocket.listen(128)
+# 3,变为监听套接字  
+tcp_server_cocket.listen(128)
 
-  #,4，等待新客户端的链接  new_socket, client_addr = tcp_server_cocket.accept()
+#,4，等待新客户端的链接  
+new_socket, client_addr = tcp_server_cocket.accept()
 
-  # 5，为这个客户端服务  server_client(new_socket)
+# 5，为这个客户端服务  server_client(new_socket)
 
 if name == "main":  main()
 ```
@@ -26,7 +34,6 @@ if name == "main":  main()
 ```python
 import socket
 import re
-
 
 
 
@@ -58,7 +65,7 @@ def server_client(new_socket):
     response = "HTTP/1.1 200 OK\r\n"
     response += "\r\n"
     # 2.2，准备发送给浏览器的数据 ----body
-    # response += "hahahha"]
+    # response += "hahahha"
     try:
         f = open('html'+file_name, 'rb')
     except:
@@ -297,7 +304,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-    ```
+```
 
 
 
