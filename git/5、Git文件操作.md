@@ -16,11 +16,11 @@
 
 下面的图很好的解释了这几种状态的转变：
 
-![img](https://img2018.cnblogs.com/blog/1090617/201810/1090617-20181008212245877-52530897.png)
+![img](images/5、Git文件操作.md-0.PNG)
 
 这会让我们的 Git 项目拥有三个阶段：工作区、暂存区以及 Git 目录。
 
-![工作区、暂存区以及 Git 目录。](https://git-scm.com/book/en/v2/images/areas.png)
+![工作区、暂存区以及 Git 目录。](images/5、Git文件操作.md-1.PNG)
 
 
 
@@ -48,7 +48,7 @@ git status
 
 ## 第一步：使用add命令添加到暂存区
 
-![img](https://images2017.cnblogs.com/blog/63651/201709/63651-20170905231716304-244902919.png)
+![img](images/5、Git文件操作.md-3.PNG)
 
 将untracked状态的文件添加到暂存区，语法格式如下：
 
@@ -157,7 +157,7 @@ git log [<options>] [<revision range>] [[\--] <path>…?]
 
 示例：
 
-![img](https://images2017.cnblogs.com/blog/63651/201709/63651-20170906162101757-272912226.png)
+![img](images/5、Git文件操作.md-6.PNG)
 
 "git log --graph"以图形化的方式显示提交历史的关系，这就可以方便地查看提交历史的分支信息，当然是控制台用字符画出来的图形。
 
@@ -165,7 +165,7 @@ git log [<options>] [<revision range>] [[\--] <path>…?]
 
 使用history可以查看您在bash下输入过的指令：
 
-![img](https://images2017.cnblogs.com/blog/63651/201709/63651-20170906162304663-1459403979.png)
+![img](images/5、Git文件操作.md-7.PNG)
 
 几乎所有输入过的都被记录下来的，不愧是做版本控制的。
 
@@ -173,7 +173,7 @@ git log [<options>] [<revision range>] [[\--] <path>…?]
 
 "git reflog"中会记录这个仓库中所有的分支的所有更新记录，包括已经撤销的更新。
 
-![img](https://images2017.cnblogs.com/blog/63651/201709/63651-20170907101206757-412323808.png)
+![img](images/5、Git文件操作.md-8.PNG)
 
 # 查看文件列表
 
@@ -186,7 +186,7 @@ git ls-files [-z] [-t] [-v] (--[cached|deleted|others|ignored|stage|unmerged|kil
 
 示例：
 
-![img](https://images2017.cnblogs.com/blog/63651/201709/63651-20170906213836397-1160093052.png)
+![img](images/5、Git文件操作.md-9.PNG)
 
 # 删除文件
 
@@ -276,11 +276,11 @@ git reset --59cf9334cf957535cb328f22a1579b84db0911e5
 
 回退前：
 
-![img](https://images2017.cnblogs.com/blog/63651/201709/63651-20170906235156351-597175458.png)
+![img](images/5、Git文件操作.md-14.PNG)
 
 回退后：
 
-![img](https://images2017.cnblogs.com/blog/63651/201709/63651-20170906235057710-1820019779.png)
+![img](images/5、Git文件操作.md-15.PNG)
 
 现在又想恢复被撤销的提交可用"git reflog"查看仓库中所有的分支的所有更新记录，包括已经撤销的更新，撤销方法与前面一样。
 

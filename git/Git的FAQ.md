@@ -22,7 +22,7 @@ A：
     - git status，显示的文件目录如果存在中文字符，则中文字符则会转成八进制显示。
 
 
-- ![](./images/git bash的中文乱码问题-1.png)
+- ![](images/Git的FAQ.md-0.PNG)
       
     - 1.2 设置
 
@@ -30,7 +30,7 @@ A：
 
     - 然后在 git bash 终端输入命令：git config --global core.quotepath false 即可。
 
-![](./images/git bash的中文乱码问题-2.png)
+![](images/Git的FAQ.md-1.PNG)
 
 - 2 特殊情况
 

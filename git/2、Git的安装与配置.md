@@ -54,13 +54,13 @@ $ apt-get -y remove git
 https://github.com/git/git/releases
 ```
 
-![img](https://img2020.cnblogs.com/blog/1578696/202005/1578696-20200505133843081-2015964722.png)
+![img](images/2、Git的安装与配置.md-0.PNG)
 
  
 
 3.下载最新版本的tar.gz的Git到本地电脑上，利用Xftp工具将压缩包上传至Linux服务器的/usr/local目录下
 
-![img](https://img2020.cnblogs.com/blog/1578696/202005/1578696-20200505134208088-1460844022.png)
+![img](images/2、Git的安装与配置.md-1.PNG)
 
  
 
@@ -70,7 +70,7 @@ https://github.com/git/git/releases
 tar -zxvf git-2.31.1.tar.gz
 ```
 
-![img](https://img2020.cnblogs.com/blog/1578696/202005/1578696-20200505134514866-802430223.png)
+![img](images/2、Git的安装与配置.md-2.PNG)
 
 5.拿到解压后的源码以后我们需要编译源码了，不过在此之前需要安装编译所需要的依赖。
 
@@ -84,7 +84,7 @@ $ apt-get install dh-autoreconf libcurl4-gnutls-dev libexpat1-dev \
   gettext libz-dev libssl-dev
 ```
 
-![img](https://img2020.cnblogs.com/blog/1578696/202005/1578696-20200505135059335-48603236.png)
+![img](images/2、Git的安装与配置.md-3.PNG)
 
  
 
@@ -134,7 +134,7 @@ git --version
 
 安装完成后，在开始菜单里找到“Git”->“Git Bash”，蹦出一个类似命令行窗口的东西，就说明Git安装成功！
 
-![install-git-on-windows](https://www.liaoxuefeng.com/files/attachments/919018718363424/0)
+![install-git-on-windows](images/2、Git的安装与配置.md-4.PNG)
 
 安装完成后，还需要最后一步设置，配置个人的用户名称和电子邮件地址，在命令行输入：
 
