@@ -210,7 +210,7 @@ Having our API just serve data, we can also make the design choice to serve asse
 
 ### 二、Token的原理
 
-![](./images/3-1.png)
+![](images/Sign签名和token口令.md-0.PNG)
 
 1.将荷载payload，以及Header信息进行Base64加密，形成密文payload密文，header密文。
 
@@ -229,7 +229,7 @@ Having our API just serve data, we can also make the design choice to serve asse
 
 三，实现思路
 
-![](./images/3-2.png)
+![](images/Sign签名和token口令.md-1.PNG)
 
 
 

@@ -7,49 +7,49 @@ SEO（Search Engine Optimization）：汉译为搜索引擎优化。是一种方
 
 ## 搜索引擎的工作原理
 
-![SEO搜索引擎-1.png](./images/SEO搜索引擎-1.png)
+![SEO搜索引擎-1.png](images/SEO搜索引擎优化.md-0.PNG)
 
 ## SEO基础知识
 
-![SEO搜索引擎-2.png](./images/SEO搜索引擎-2.png)
+![SEO搜索引擎-2.png](images/SEO搜索引擎优化.md-1.PNG)
 
 ## 影响网站排名的因素
 
-![SEO搜索引擎-3.png](./images/SEO搜索引擎-3.png)
+![SEO搜索引擎-3.png](images/SEO搜索引擎优化.md-2.PNG)
 
-![SEO搜索引擎-4.png](./images/SEO搜索引擎-4.png)
+![SEO搜索引擎-4.png](images/SEO搜索引擎优化.md-3.PNG)
 
 
 
 ## 网站结构
 
-![SEO搜索引擎-5.png](./images/SEO搜索引擎-5.png)
+![SEO搜索引擎-5.png](images/SEO搜索引擎优化.md-4.PNG)
 
 ## 百度权重
 
-![SEO搜索引擎-6.png](./images/SEO搜索引擎-6.png)
+![SEO搜索引擎-6.png](images/SEO搜索引擎优化.md-5.PNG)
 
 ## 网站降权
 
-![SEO搜索引擎-7.png](./images/SEO搜索引擎-7.png)
+![SEO搜索引擎-7.png](images/SEO搜索引擎优化.md-6.PNG)
 
 ## 目标关键词
 
-![SEO搜索引擎-8.png](./images/SEO搜索引擎-8.png)
+![SEO搜索引擎-8.png](images/SEO搜索引擎优化.md-7.PNG)
 
 ## 页面权重排序
 
-![SEO搜索引擎-9.png](./images/SEO搜索引擎-9.png)
+![SEO搜索引擎-9.png](images/SEO搜索引擎优化.md-8.PNG)
 
 ## 关键词布局
 
-![SEO搜索引擎-10.png](./images/SEO搜索引擎-10.png)
+![SEO搜索引擎-10.png](images/SEO搜索引擎优化.md-9.PNG)
 
 ## 关键词挖掘工具
 
-![SEO搜索引擎-11.png](./images/SEO搜索引擎-11.png)
+![SEO搜索引擎-11.png](images/SEO搜索引擎优化.md-10.PNG)
 
 ## 搜索引擎喜欢什么样的文件
 
-![SEO搜索引擎-12.png](./images/SEO搜索引擎-12.png)
+![SEO搜索引擎-12.png](images/SEO搜索引擎优化.md-11.PNG)
 

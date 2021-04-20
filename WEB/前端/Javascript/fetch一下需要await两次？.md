@@ -31,7 +31,7 @@ let json         = await response.json();
 })('./big.file');
 ```
 
-![](./images/fetch一下需要await两次-1.png)
+![](images/fetch一下需要await两次？.md-0.PNG)
 
 
 图中可以看到，当response对象拿到手只经过了64ms，而等整个http请求完成却花了10s！第一个fetch()方法得到的promise远远快于第二个promise。（当然，如果是一个小文件的话，你会发现2次时间相差无几）

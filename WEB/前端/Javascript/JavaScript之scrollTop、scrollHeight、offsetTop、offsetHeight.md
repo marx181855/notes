@@ -3,7 +3,7 @@
 # 1、 clientHeight，只读
 clientHeight  可以用公式  CSS height + CSS padding - 水平滚动条的高度 (如果存在)  来计算。
 
-![](./images/JavaScript之scrollTop、scrollHeight、offsetTop、offsetHeight-1.png)
+![](images/JavaScript之scrollTop、scrollHeight、offsetTop、offsetHeight.md-0.PNG)
  如图，这样一个div，它的clientHeight为95，计算：50(height)+30(padding-top)+30(padding-bottom)-15(经测量滚动条高度就是15)=95
 
  
@@ -58,7 +58,7 @@ HTMLElement.offsetParent 是一个只读属性，返回一个指向最近的包�
 ````
 因为限制了父元素的高度，所以不能全部显示子元素，设置了overflow之后，可以通过滚动条的形式滑动查看子元素。效果如图1，如果没有限制父元素的高度，那么效果将如图2显示。
 
-| ![](./images/JavaScript之scrollTop、scrollHeight、offsetTop、offsetHeight-2.png) | ![](./images/JavaScript之scrollTop、scrollHeight、offsetTop、offsetHeight-3.png) |
+| ![](images/JavaScript之scrollTop、scrollHeight、offsetTop、offsetHeight.md-1.PNG) | ![](images/JavaScript之scrollTop、scrollHeight、offsetTop、offsetHeight.md-2.PNG) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |                           图（1）                            |                           图（2）                            |
 
@@ -73,14 +73,14 @@ scrollHeight就是图2的高度，没有高度限制时，能够完全显示子�
 是这些元素中唯一一个可写可读的。
 
 
-![](./images/JavaScript之scrollTop、scrollHeight、offsetTop、offsetHeight-4.png)
-![](./images/JavaScript之scrollTop、scrollHeight、offsetTop、offsetHeight-5.png)
-![](./images/JavaScript之scrollTop、scrollHeight、offsetTop、offsetHeight-6.png)
+![](images/JavaScript之scrollTop、scrollHeight、offsetTop、offsetHeight.md-3.PNG)
+![](images/JavaScript之scrollTop、scrollHeight、offsetTop、offsetHeight.md-4.PNG)
+![](images/JavaScript之scrollTop、scrollHeight、offsetTop、offsetHeight.md-5.PNG)
 
 所以当滚动条在最顶端的时候， scrollTop=0 ，当滚动条在最低端的时候， scrollTop=115 
 
 这个115怎么来的（滚动条高度是15，作者量的），见下图。
-![](./images/JavaScript之scrollTop、scrollHeight、offsetTop、offsetHeight-7.png)
+![](images/JavaScript之scrollTop、scrollHeight、offsetTop、offsetHeight.md-6.PNG)
 
 crollTop是一个整数。
 

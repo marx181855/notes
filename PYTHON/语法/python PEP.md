@@ -24,7 +24,7 @@ PEP的官网是：https://www.python.org/dev/peps/，这也就是PEP 0 的地址
 
 每个PEP最初都是一个草案（Draft），随后会经历一个过程，因此也就出现了不同的状态。以下是一个流程图：
 
-![](./images/python PEP-1.png)
+![](images/python PEP.md-0.PNG)
 
 PEP process flow diagram
 

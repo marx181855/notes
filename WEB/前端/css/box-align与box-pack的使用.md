@@ -76,7 +76,7 @@ div{
 
 效果图：
 
-![](./images/box-align与box-pack的使用-1.png)
+![](images/box-align与box-pack的使用.md-0.PNG)
 
 
 
