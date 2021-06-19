@@ -6,9 +6,16 @@ import socket
 def server_client(new_socket):  
 # 为这个客户端返回数据  
 # 1，接收浏览器发送过来的请求，即http请求  # GET /HTTP/1.1  # ...  
-request = new_socket.recv(1024)  print(request)
+request = new_socket.recv(1024)  
+print(request)
 
-# 2，返回http格式的数据，给浏览器  # 2.1 ，准备返回给浏览器的数据 ---header  response = "HTTP/1.1 200 OK\r\n"  response += "\r\n"  # 2.2，准备发送给浏览器的数据 ----body  response += "hahahha"  new_socket.send(response.encode('utf-8'))
+# 2，返回http格式的数据，给浏览器  
+# 2.1 ，准备返回给浏览器的数据 ---header  
+response = "HTTP/1.1 200 OK\r\n"  
+response += "\r\n"  
+# 2.2，准备发送给浏览器的数据 ----body  
+response += "hahahha"  
+new_socket.send(response.encode('utf-8'))
 
 # 关闭套接字
 
@@ -49,8 +56,6 @@ def server_client(new_socket):
     print("")
     print("="*50)
     print(request_lines)
-
-
 
 
     file_name = ""
