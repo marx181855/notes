@@ -6,3 +6,5 @@
 
 统一用Typora和markdown格式写文档，流程图。
 
+![code](images/code.png)
+
