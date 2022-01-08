@@ -219,7 +219,7 @@ BEM的关键是，可以获得更多的描述和更加清晰的结构，从其�
 
 ## recommendProducts 推荐商品
 
-```vue
+```html
 <view class="recommendProducts">
   <view
     class="recommendProducts_item"
@@ -266,7 +266,7 @@ BEM的关键是，可以获得更多的描述和更加清晰的结构，从其�
 
 ## tabs 标签页
 
-```vue
+```html
 <view class="tabs">
   <view
     class="tabs_item"

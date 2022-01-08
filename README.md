@@ -4,5 +4,4 @@
 
 ## 规范
 
-统一用Typora和markdown格式写文档，流程图。
-
+统一用 markdown 格式写文档和画流程图。
