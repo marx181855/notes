@@ -10,7 +10,7 @@
 
 ## 创建项目
 
-执行`npm init vite@latest my-vue-app -- --template vue`命令创建项目
+执行`npm init vite@latest my-vue-app -- --template vue-ts`命令创建项目
 
 ![Img](./images/216b7533.png)
 ![Img](./images/b94b2a18.png)
